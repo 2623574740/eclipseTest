@@ -9,6 +9,7 @@ public class Test {
 		ApplicationContext context = new ClassPathXmlApplicationContext("application.xml");
 		StudentAction S = (StudentAction) context.getBean("StudentAction");
 		S.showStu();
+		System.out.println("good idea");
 	}
 	
 }
